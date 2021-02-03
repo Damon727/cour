@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 sept. 2020, 13:31:19
+    Author     : cmaillard
+*/
+.cadreCivilite{
+    width: 800px;
+    height: 140px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    border-radius: 35px;
+    border: 2px outset purple;
+    display: block;
+   
+}
+.photo{
+    position: absolute;
+    left: 660px;
+    top: 10px;
+    width: 80px;
+    height: 100px;
+}
+.nomPrenom{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    left: 50px;
+    
+}
+.adresse{
+    font-style: italic;
+    position: absolute;
+    left: 50px;
+}
+.ageTel{
+    font-style: normal;
+    position: absolute;
+    left: 50px;
+}
+.courriel{
+    color: darkblue;
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+.typeStage{
+    font-weight: bold;
+    font-style: normal;
+    position: relative;
+    top: 25px;
+    left: 45px;
+    display: block;
+    width: 600px;
+    
+}
+
+.cadreFormation{
+    width: 800px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    border-radius: 35px;
+    border: 2px outset purple;
+    display: block;
+    
+}
+.titreRubrique{
+    border-top: 1px outset black;
+    border-bottom: 1px outset black;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    width: 370px;
+    text-align: center;    
+    margin-bottom: 10px;
+    background-color: darkblue;
+    color: white;
+    border-color: yellow;
+    border: 3px outset yellow;
+    border-radius: 15px;
+       
+    
+    
+    
+}
+.diplome{
+    font-weight: bold;
+}
+.detailDiplome{
+    font-style: italic;
+}
+.cadreExperience{
+    width: 800px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*height: 200px;*/
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    top: 320px;
+    border-radius: 35px;
+    border: 2px outset purple;
+    display: block;
+}
+.anneeExperience{
+    font-weight: bold;
+}
+.posteExperience{
+    font-style: normal;
+    
+}
+.entrepriseExperience{
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.periodeExperience{
+    font-style: italic;
+    
+}
+.descriptionExperience{
+    display: list-item;
+    margin-left: 30px;
+    
+}
+
+
+.cadreCompetences{
+    border: 2px outset purple;
+    display: block;
+    width: 800px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*height: 200px;*/
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    top: 565px;
+    border-radius: 35px;
+    
+}
+.competence{
+    display: list-item;
+    margin-left: 30px;
+    font-weight: bold;
+    
+}
+.detailCompetence{
+   font-weight:normal;
+}

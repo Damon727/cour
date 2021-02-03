@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 sept. 2020, 14:07:39
+    Author     : cmaillard
+*/
+.titre{
+    background-color: white;
+    border: 0px outset white;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+}
+.module{
+    background-image: url(cisco.jpg);
+    
+   border: 3px outset blue;
+    width: 400px;
+    height: 140px;
+    font-size: small;
+    display: block;
+    }
+.module1{
+    position: absolute;
+    left: 10px;
+    top: 0px
+}
+    
+.module2{
+    position: absolute;
+    left: 420px;
+    top: 0px
+    
+    } 
+.module3{
+    position: absolute;
+    left: 830px;
+    top: 0px
+    } 
+.module4{
+    position: absolute;
+    left: 10px;
+    top: 150px
+    } 
+.module5{
+    position: absolute;
+    left: 420px;
+    top: 150px
+    } 
+.module6{
+    position: absolute;
+    left: 830px;
+    top: 150px
+    } 
+.module7{
+    position: absolute;
+    left: 10px;
+    top: 300px
+}
+.module8{
+    position: absolute;
+    left: 420px;
+    top: 300px
+    }
+.module9{
+    position: absolute;
+    left: 830px;
+    top: 300px
+    }
+.module10{
+    position: absolute;
+    left: 270px;
+    top: 450px
+    } 
+.module11{
+    position: absolute;
+    left: 680px;
+    top: 450px
+    }     
+.module:hover{
+    border-color: red;
+}
+.text:hover{
+    background-color: white;
+    border-radius: 10px;
+}

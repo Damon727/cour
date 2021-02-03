@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 sept. 2020, 10:41:34
+    Author     : cmaillard
+*/
+
+            .cadre1{
+            border-style: solid;
+            border-color: blue;
+            width: 200px;
+            text-align: center;
+            font: 18px groove;
+            color: purple;
+            font-weight: bold;
+            }
+            .cadre2{
+                border-style: hidden;
+                text-align: center;
+                font-size: 18px ;
+                background-color: bisque;
+                width:250px;
+                position: absolute;
+                left: 53px;
+                font-weight: bold;
+                
+            }
+            .titre{
+                position:absolute;
+                left: 400px;
+                font:20px ridge;
+                background-color: khaki;
+                color:blue;
+                border-style: solid;
+                border-color:purple ;
+                width: 300px;
+                text-align: center;
+                font-weight: bold;
+                
+            }
+            .texte11{
+                font-family: 'courrier new' ;
+                font-size:18px; 
+                position:absolute;
+                left: 53px;
+            }
+            .texte22{
+                font-family: 'century schoolbook l' ;
+                position: absolute;
+                left: 113px ;
+            }

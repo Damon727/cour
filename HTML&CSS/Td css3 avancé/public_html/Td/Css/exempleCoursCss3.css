@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 sept. 2020, 14:07:38
+    Author     : cmaillard
+*/
+
+.titreOmbre{
+    position: absolute;
+   
+    color: white;
+    border: 1px outset lightgreen;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+.titreOmbre:hover{
+   box-shadow: 0px 0px 80px 30px lightgreen; 
+}
+
+.degradelineaire{
+    background: linear-gradient(to right,white,blue);
+    width: 150px;
+    height: 150px
+}
+
+.degraderadial{
+    background: radial-gradient(150px,darkgreen,white);
+    width: 150px;
+    height: 150px
+}
+@media screen and (min-width:300px)
+{
+.boites{
+    
+}
+
+.boite1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.boite2{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 220px;
+}
+.boite3{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 430px;
+}
+}
+
+@media screen and (min-width:600px)
+{
+.boites{
+    
+}
+
+.boite1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.boite2{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 270px;
+    top: 8px;
+}
+.boite3{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 220px;
+}
+}
+
+@media screen and (min-width:900px)
+{
+.boites{
+    
+}
+
+.boite1{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.boite2{
+    background-color: lightgreen;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 270px;
+}
+.boite3{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 490px;
+    top: 8px;
+}
+}

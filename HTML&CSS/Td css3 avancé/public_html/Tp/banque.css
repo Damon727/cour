@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 sept. 2020, 10:56:34
+    Author     : cmaillard
+*/
+
+
+#particulier{
+    
+}
+#priority{
+   left:155px;
+}
+
+#banquePrivee{
+    
+    left: 300px;
+}
+
+#professionnels{
+   left: 447px;
+}
+#entreprises{
+   left: 593px
+}
+#associations{
+    left: 738px;
+}
+#alaune{
+   top: 100px;
+}
+#alaune:hover{
+    background-color: green;
+    color:black;
+}
+#offre{
+  top: 200px;  
+}
+#offre:hover{
+    background-color: lightgreen;
+    color:black;
+}
+#besoin{
+    top:300px;
+}
+#besoin:hover{
+    background-color: cyan;
+    color:black;
+}
+#contact{
+    top:400px;
+}
+#contact:hover{
+    background-color: lightblue;
+    color:black;
+}
+#bonplans{
+    top:500px;
+}
+#bonplans:hover{
+    background-color: pink;
+    color:black;
+}
+#logo{}
+#centre{
+    background: linear-gradient(to right,green,white);
+    position: absolute;
+    top: 100px;
+    left: 160px;
+        width: 750px;
+        height: 500px;
+}
+#piece{
+    border:15px  yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: absolute;
+    left: 342px;
+    top:80px;
+    background-color: yellow;
+    animation: bougevertical 1s linear 0s infinite normal; 
+}
+@keyframes bougevertical{
+  from{background-color:red,left:350px;top:80px}
+  to{background-color:yellowleft:350px;top:300px} 
+}
+#cochon{
+    position: absolute;
+    top: 330px;
+    left: 250px;
+}
+
+.blocsGauche{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 98px;
+    position: absolute;
+    left:0px; 
+}
+.blocsHaut{
+    color: white;
+    background-color: black;
+    width: 148px;
+    position: absolute;
+    top:5px;
+    text-align: center; 
+}
+.blocsHaut:hover{
+    box-shadow: 0px 0px 10px 10px lightgreen;
+    border-radius: 15px;
+}
+.sousTitreGauche{
+    font-weight: normal;
+    font-size: small;
+    
+}

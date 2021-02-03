@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 sept. 2020, 13:09:31
+    Author     : cmaillard
+*/
+
+.cadre1{
+    text-align: center;
+    border: 2px outset blue;
+    width: 670px;
+    height: 140px;
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    display: block;
+}
+.cadre2{
+    text-align: center;
+    background-color: yellow;
+    width: 500px;
+    height: 38px;
+    position: absolute;
+    left: 90px;
+   
+}
+.cadre3{
+    
+    border: 2px outset blue;
+    width: 320px;
+    height: 290px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    display: block;}
+.cadre4{
+    text-align: center;
+    border: 2px outset blue;
+    width: 320px;
+    height: 290px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    position: absolute;
+    left: 400px;
+    top: 160px;
+    display: block;
+}
+
+.info{
+    background-color: yellow;
+    
+}
+
+.titre{
+   color: blue;
+   text-align: center;
+}
+.photo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 520px;
+    top: 10px;
+    z-index: 1
+}   

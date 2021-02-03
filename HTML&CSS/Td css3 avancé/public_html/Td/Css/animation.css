@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 sept. 2020, 10:25:43
+    Author     : cmaillard
+*/
+
+.boite{
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;  
+    text-align: center;
+    
+}
+.boite:active{
+   position: absolute;
+   top: 150px;
+   left: 50px;
+   animation: bougehorizontal 10s linear 0s infinite normal; 
+}
+@keyframes bougehorizontal{
+  from{left:0px;top:100px}
+  to{left:1000px;top:100px} 
+}
+
+
+    

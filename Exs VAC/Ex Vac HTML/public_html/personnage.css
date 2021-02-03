@@ -1,0 +1,354 @@
+
+/* situation 1 */
+@media screen and (max-width:950px)
+{
+       #fiche{
+        height: 550px;
+        width: 680px;
+        background-color: black;
+        z-index: 3;
+        display: block;
+
+    }
+    #portrait{
+        height: 330px;
+        width: 400px;
+        z-index: 2;
+        background: linear-gradient(to bottom,black,green);
+        text-align: center;
+        color: yellow;
+        display: block;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid green;
+        border-radius: 5px;
+        left: 10px;
+        position: absolute;
+    }
+    #portrait:hover{
+        box-shadow: 5px 5px 10px 2px green;
+    }
+    .image{
+        height: 300px;
+        width: 300px;
+        z-index: 1;
+        animation-name: image2;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+    }
+    @keyframes image2{
+        0%{
+            transform:rotate3d(0,1,0,0deg);
+        }
+        100%{
+            transform:rotate3d(0,1,0,180deg);
+        }
+        
+    }
+    #attaque{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,yellow,orange);
+        height: 250px;
+        width: 220px;
+        position: absolute;
+        left: 420px;
+        top: 80px;
+        border: 1px solid red;
+        border-radius: 5px;
+    }
+    #attaque:hover{
+        box-shadow: 5px 5px 10px 2px red;
+    }
+    #titreatk{
+        color: red;    
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #defense{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,cyan,blue);
+        height: 92px;
+        width: 220px;
+        position: absolute;
+        top: 360px;
+        left: 420px;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+    #defense:hover{
+        box-shadow: 5px 5px 10px 2px blue;
+    }
+    #titredef{
+        color: blue;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #stats{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,white,purple);
+        height: 150px;
+        width: 400px;
+        position: absolute;
+        left: 10px;
+        top: 350px;
+        border: 1px solid purple;
+        border-radius: 5px;
+        
+    } 
+    #stats:hover{
+        box-shadow: 5px 5px 10px 2px purple;
+    }
+    #titrestats{
+        color: purple;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
+/* situation 2 */
+@media screen and (max-width:690px)
+{
+       #fiche{
+        height: 620px;
+        width: 320px;
+        background-color: black;
+        z-index: 3;
+        display: block;
+
+    }
+    #portrait{
+        height: 230px;
+        width: 300px;
+        z-index: 2;
+        background: linear-gradient(to bottom,black,green);
+        text-align: center;
+        color: yellow;
+        display: block;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid green;
+        border-radius: 5px;
+        left: 15px;
+        position: absolute;
+    }
+    #portrait:hover{
+        box-shadow: 5px 5px 10px 2px green;
+    }
+    .image{
+        height: 200px;
+        width: 200px;
+        z-index: 1;
+        animation-name: image2;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+    }
+    @keyframes image2{
+        0%{
+            transform:rotate3d(0,1,0,0deg);
+        }
+        100%{
+            transform:rotate3d(0,1,0,180deg);
+        }
+        
+    }
+    #attaque{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,yellow,orange);
+        height: 160px;
+        width: 300px;
+        position: absolute;
+        top: 380px;
+        left: 15px;
+        border: 1px solid red;
+        border-radius: 5px;
+        display: block;
+    }
+    #attaque:hover{
+        box-shadow: 5px 5px 10px 2px red;
+    }
+    #titreatk{
+        color: red;    
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #defense{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,cyan,blue);
+        height: 68px;
+        width: 300px;
+        position: absolute;
+        top: 550px;
+        left: 15px;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+    #defense:hover{
+        box-shadow: 5px 5px 10px 2px blue;
+    }
+    #titredef{
+        color: blue;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #stats{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,white,purple);
+        height: 110px;
+        width: 300px;
+        position: absolute;
+        top: 245px;
+        left: 15px;
+        border: 1px solid purple;
+        border-radius: 5px;
+    } 
+    #stats:hover{
+        box-shadow: 5px 5px 10px 2px purple;
+    }
+    #titrestats{
+        color: purple;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
+/* situation 3 */
+@media screen and (min-width:950px)
+{
+    #fiche{
+        height: 620px;
+        width: 930px;
+        background-color: black;
+        z-index: 3;
+        display: block;
+
+    }
+    #portrait{
+        height: 430px;
+        width: 512px;
+        z-index: 2;
+        background: linear-gradient(to bottom,black,green);
+        text-align: center;
+        color: yellow;
+        display: block;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid green;
+        border-radius: 5px;
+    }
+    #portrait:hover{
+        box-shadow: 5px 5px 10px 2px green;
+    }
+    .image{
+        height: 400px;
+        width: 400px;
+        z-index: 1;
+        animation-name: image2;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: normal;
+    }
+    @keyframes image2{
+        0%{
+            transform:rotate3d(0,1,0,0deg);
+        }
+        100%{
+            transform:rotate3d(0,1,0,180deg);
+        }
+        
+    }
+    #attaque{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,yellow,orange);
+        height: 250px;
+        width: 300px;
+        position: absolute;
+        left: 600px;
+        top: 100px;
+        border: 1px solid red;
+        border-radius: 5px;
+    }
+    #attaque:hover{
+        box-shadow: 5px 5px 10px 2px red;
+    }
+    #titreatk{
+        color: red;    
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+
+    #defense{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,cyan,blue);
+        height: 92px;
+        width: 300px;
+        position: absolute;
+        top: 400px;
+        left: 600px;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+    #defense:hover{
+        box-shadow: 5px 5px 10px 2px blue;
+    }
+    #titredef{
+        color: blue;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #stats{
+        z-index: 2;
+        display: block;
+        background: linear-gradient(to bottom,white,purple);
+        height: 150px;
+        width: 450px;
+        position: absolute;
+        left: 50px;
+        top: 470px;
+        border: 1px solid purple;
+        border-radius: 5px;
+    } 
+    #stats:hover{
+        box-shadow: 5px 5px 10px 2px purple;
+    }
+    #titrestats{
+        color: purple;  
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
+
+
+/*
+https://cssgradient.io/
+*/
